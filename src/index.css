@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #141316;
+  --color-secondary: #0C64D9;
+  --color-textFocus: #FFFFFF;
+  --color-text: #B5B8B7;
+}
+@layer components {
+  .h1 {
+    @apply text-lg font-bold
+  }
+
+  .h6 {
+    @apply text-sm font-bold
+  }
+
+  .p {
+    @apply text-[16px] font-normal text-text
+  }
+
+  .section {
+    @apply pt-6
+  }
+  .input {
+    @apply bg-gray-50 text-sm px-6 py-3 rounded-md outline-0 mt-3
+  }
+  .label {
+    @apply font-semibold
+  }
+  .input-error {
+    @apply text-[12px] text-red-500 pb-3
+  }
+  .form-button {
+    @apply px-6 py-3 text-center rounded-md cursor-pointer w-full
+  }
+}
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400, 500;
+  letter-spacing: 0.01cm;
+  
+}
+
+
