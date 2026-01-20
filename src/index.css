@@ -17,11 +17,11 @@
   }
 
   .p {
-    @apply text-[16px] font-normal text-text
+    @apply lg:text-[16px] 
   }
 
   .section {
-    @apply pt-6
+    @apply pt-40
   }
   .input {
     @apply bg-gray-50 text-sm px-6 py-3 rounded-md outline-0 mt-3
@@ -35,6 +35,9 @@
   .form-button {
     @apply px-6 py-3 text-center rounded-md cursor-pointer w-full
   }
+}
+body {
+  background-color: var(--color-primary);
 }
 * {
   font-family: "Roboto", sans-serif;
